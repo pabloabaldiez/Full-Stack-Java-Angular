@@ -1,4 +1,4 @@
-package com.api.portfolio.User;
+package com.api.portfolio.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

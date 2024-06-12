@@ -10,7 +10,7 @@
     >
         <div *ngIf="email.errors?.['required']">El Email es requerido.</div>
         <div *ngIf="email.errors?.['email']">
-        El Email debe tener un formato valido
+        El Email debe tener un formato valido.
         </div>
         <div *ngIf="email.errors?.['forbiddenName']">
         Name cannot be Bob.
@@ -26,8 +26,8 @@
         class="text-danger"
     >
          <div *ngIf="password.errors?.['required']">El password es requerido.</div>
-       
+
         </div>
-      
+
    <button type="submit" (click)="login()" class="btn btn-primary">Iniciar Sesión</button>
   </form>

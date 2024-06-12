@@ -1,6 +1,6 @@
 package com.api.portfolio.config;
 
-import com.api.portfolio.User.UserRepository;
+import com.api.portfolio.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

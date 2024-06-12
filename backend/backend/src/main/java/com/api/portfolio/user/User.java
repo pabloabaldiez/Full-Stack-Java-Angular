@@ -1,4 +1,4 @@
-package com.api.portfolio.User;
+package com.api.portfolio.user;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

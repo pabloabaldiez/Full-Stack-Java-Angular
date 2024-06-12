@@ -1,6 +1,5 @@
 package com.api.portfolio.jwt;
 
-import com.api.portfolio.User.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

@@ -1,4 +1,4 @@
-package com.api.portfolio.User;
+package com.api.portfolio.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

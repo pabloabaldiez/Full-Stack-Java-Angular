@@ -1,6 +1,10 @@
-package com.api.portfolio.auth;
+package com.api.portfolio.controller;
 
 
+import com.api.portfolio.auth.AuthResponse;
+import com.api.portfolio.auth.AuthService;
+import com.api.portfolio.auth.LoginRequest;
+import com.api.portfolio.auth.RegisterRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import lombok.RequiredArgsConstructor;

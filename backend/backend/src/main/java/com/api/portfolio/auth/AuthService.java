@@ -1,9 +1,9 @@
 package com.api.portfolio.auth;
 
-import com.api.portfolio.User.UserRepository;
+import com.api.portfolio.user.UserRepository;
 import com.api.portfolio.jwt.JwtService;
-import com.api.portfolio.User.User;
-import com.api.portfolio.User.Role;
+import com.api.portfolio.user.User;
+import com.api.portfolio.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

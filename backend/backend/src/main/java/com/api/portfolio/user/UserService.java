@@ -1,5 +1,6 @@
-package com.api.portfolio.User;
+package com.api.portfolio.user;
 
+import com.api.portfolio.user.dto.UserDTO;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
